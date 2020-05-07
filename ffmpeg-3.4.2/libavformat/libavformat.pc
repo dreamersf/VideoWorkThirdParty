@@ -1,0 +1,14 @@
+prefix=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug
+exec_prefix=${prefix}
+libdir=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug/lib
+includedir=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 57.83.100
+Requires: 
+Requires.private: libavcodec >= 57.107.100, libswresample >= 2.9.100, libavutil >= 55.78.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -framework OpenGL -framework OpenGL -framework Foundation -framework CoreVideo -framework CoreMedia -framework CoreFoundation -framework VideoToolbox -framework CoreMedia -framework CoreVideo -framework VideoDecodeAcceleration -liconv -L/usr/local/lib -lxcb -L/usr/local/lib -lxcb-shm -lxcb -L/usr/local/lib -lxcb-xfixes -lxcb-render -lxcb-shape -lxcb -L/usr/local/lib -lxcb-shape -lxcb -Wl,-framework,CoreFoundation -Wl,-framework,Security -L/usr/local/Cellar/x264/r2917/lib -lx264 -lm -llzma -lbz2 -lz -pthread -pthread -framework CoreServices -framework CoreGraphics -framework VideoToolbox -framework CoreImage -framework AVFoundation -framework AudioToolbox -framework AppKit
+Cflags: -I${includedir}

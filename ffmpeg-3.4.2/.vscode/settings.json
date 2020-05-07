@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "rtpenc.h": "c",
+        "rtp.h": "c"
+    }
+}

@@ -1,0 +1,1 @@
+config:x86:x86_64:generic:darwin:Apple LLVM version 10.0.1 (clang-1001.0.46.4):--enable-shared --disable-asm --enable-decoder=h264 --enable-libx264 --enable-gpl --enable-pthreads --enable-swscale --enable-postproc --prefix=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug

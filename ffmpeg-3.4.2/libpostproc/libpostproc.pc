@@ -1,0 +1,14 @@
+prefix=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug
+exec_prefix=${prefix}
+libdir=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug/lib
+includedir=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug/include
+
+Name: libpostproc
+Description: FFmpeg postprocessing library
+Version: 54.7.100
+Requires: 
+Requires.private: libavutil >= 55.78.100
+Conflicts:
+Libs: -L${libdir}  -lpostproc 
+Libs.private: 
+Cflags: -I${includedir}

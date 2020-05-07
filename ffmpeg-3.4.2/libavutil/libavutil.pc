@@ -1,0 +1,14 @@
+prefix=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug
+exec_prefix=${prefix}
+libdir=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug/lib
+includedir=/Users/sufu/yitopapp/SRC/GBT28181/ec_rel/lib_macx_debug/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.78.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}
